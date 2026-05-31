@@ -1,0 +1,27 @@
+/* Dark theme (default) */
+[data-theme="dark"] {
+  --bg-app: #151718;
+  --bg-sidebar: #111314;
+  --bg-card: #1E2022;
+  --bg-input: #1E2022;
+  --bg-console: #0D0E0F;
+  --bg-code: #1E2022;
+  --border-color: #2A2C2E;
+  --text-primary: #E5E6EB;
+  --text-secondary: #86909C;
+  --text-placeholder: #4E5969;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg-app: #F5F7FA;
+  --bg-sidebar: #EBF0F5;
+  --bg-card: #FFFFFF;
+  --bg-input: #FFFFFF;
+  --bg-console: #F5F7FA;
+  --bg-code: #FFFFFF;
+  --border-color: #E5E6EB;
+  --text-primary: #1D2129;
+  --text-secondary: #4E5969;
+  --text-placeholder: #86909C;
+}

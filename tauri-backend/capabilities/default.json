@@ -1,0 +1,13 @@
+{
+  "identifier": "default",
+  "description": "default permissions",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "shell:default",
+    "dialog:default",
+    "fs:default",
+    "store:default",
+    "process:default"
+  ]
+}

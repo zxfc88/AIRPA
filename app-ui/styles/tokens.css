@@ -1,0 +1,37 @@
+/* Design tokens — shared across both themes */
+:root {
+  /* Brand */
+  --color-brand: #1677FF;
+  --color-brand-hover: #4096FF;
+
+  /* Semantic status colors */
+  --color-success: #00B42A;
+  --color-warning: #FF7D00;
+  --color-error: #F53F3F;
+  --color-info: #86909C;
+  --color-disabled: #4E5969;
+
+  /* Border radius scale */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+
+  /* Spacing scale — 8px grid */
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Layout constants */
+  --sidebar-width: 240px;
+  --sidebar-collapsed-width: 64px;
+  --chat-panel-width: 380px;
+  --log-console-height: 200px;
+
+  /* Font */
+  --font-mono: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
